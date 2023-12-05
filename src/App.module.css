@@ -1,0 +1,155 @@
+.mainContainer {
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.light {
+  background-color: #d1ecff;
+}
+
+.dark {
+  background-color: #fbefc9;
+}
+
+.firstViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.sparkles {
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.sun {
+  width: 20rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  margin: 3rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.clouds {
+  width: 100vw;
+}
+
+.firstViewContent {
+  margin: 0 3rem;
+}
+
+.firstViewContentText {
+  color: #212930;
+  font-size: 80.213px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.firstViewContentTagline {
+  color: #212930;
+  font-family: "regular";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  animation: fadeIn 1s ease-in-out;
+}
+.firstViewButtons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.followUs {
+  color: white;
+  display: flex;
+  font-family: "regular";
+  font-size: 1.1rem;
+  padding: 0.7rem 2rem;
+  align-items: center;
+  align-self: stretch;
+  border: none;
+  border-radius: 2rem;
+  background: #f9a040;
+}
+
+.instagramButton {
+  background: #f9a040;
+
+  display: flex;
+  font-family: "regular";
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  align-self: stretch;
+  border: none;
+  border-radius: 2rem;
+}
+
+@media (max-width: 720px) {
+  .firstViewContentText {
+    font-size: 70.213px;
+    line-height: 4.5rem;
+  }
+
+  .firstViewContentTagline {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* CSS rules for devices less than 500px */
+  .mainContainer {
+    min-width: auto;
+  }
+
+  .firstViewContentText {
+    font-size: 60.213px;
+    line-height: 4rem;
+  }
+
+  .firstViewContentTagline {
+    font-size: 18px;
+  }
+
+  .sun {
+    width: 14rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .sun {
+    width: 10rem;
+  }
+}
