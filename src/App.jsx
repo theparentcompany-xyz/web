@@ -30,14 +30,14 @@ const App = () => {
           />
           <img
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-            src={`/${theme}/sun.jpg`}
+            src={`/${theme}/sun.png`}
             alt=""
             className={styles.sun}
           />
         </div>
         <div className={styles.firstViewContent}>
           <img
-            src={`/${theme}/sparkles.jpg`}
+            src={`/${theme}/sparkles.png`}
             className={styles.sparkles}
             alt=""
             srcset=""
@@ -57,7 +57,7 @@ const App = () => {
             </button>
           </div>
         </div>
-        <img src={`/${theme}/cw.jpg`} alt="" className={styles.clouds} />
+        <img src={`/${theme}/cw.png`} alt="" className={styles.clouds} />
       </div>
     </div>
   );
