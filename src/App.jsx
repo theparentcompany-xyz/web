@@ -51,10 +51,22 @@ const App = () => {
             We are coming soon, Until then find hidden surprises.
           </p>
           <div className={styles.firstViewButtons}>
-            <button className={styles.followUs}>Follow Us</button>
-            <button className={styles.instagramButton}>
-              <img src="/ig.jpg" alt="" />
-            </button>
+            <a
+              href="https://www.instagram.com/theparentcompany.xyz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.followUs}>Follow Us</button>
+            </a>
+            <a
+              href="https://www.instagram.com/theparentcompany.xyz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.instagramButton}>
+                <img src="/ig.jpg" alt="" />
+              </button>
+            </a>
           </div>
         </div>
         <img src={`/${theme}/cw.png`} alt="" className={styles.clouds} />
