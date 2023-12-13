@@ -27,6 +27,7 @@ const App = () => {
             alt="The Parent Company Official Logo"
             srcset=""
             className={styles.logo}
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           />
           <img
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
@@ -69,7 +70,12 @@ const App = () => {
             </a>
           </div>
         </div>
-        <img src={`/${theme}/cw.png`} alt="" className={styles.clouds} />
+        <img
+          src={`/${theme}/cw.png`}
+          alt=""
+          className={styles.clouds}
+          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+        />
       </div>
     </div>
   );
