@@ -24,7 +24,7 @@ const App = () => {
                 <div className={styles.navbar}>
                     <img
                         src={`/${theme}/logo.svg`}
-                        alt="The Parent Company Official Logo"
+                        alt="Hoomans Project Official Logo"
                         srcSet=""
                         className={styles.logo}
                         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
