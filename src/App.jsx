@@ -51,18 +51,6 @@ const App = () => {
                     <p className={styles.firstViewContentTagline}>
                         Empowering Hoomans to Imagine, Innovate, and Shape the Future.
                     </p>
-                    <div className={styles.firstProduct}>
-                        <p className={styles.projectName}>
-                            Checkout MakeMyPass
-                            <a
-                                href="https://makemypass.com/home"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <button className={styles.followUs}>Visit Project</button>
-                            </a>
-                        </p>
-                    </div>
                     <div className={styles.firstViewButtons}>
                         <a
                             href="https://www.instagram.com/hoomans.project/"
@@ -80,6 +68,38 @@ const App = () => {
                                 <img src="/ig.jpg" alt="" />
                             </button>
                         </a>
+                    </div>
+
+                    <p className={styles.projectsHeading}>Ongoing Projects</p>
+
+                    <div className={styles.card}>
+                        <img src={`/dark/cimg.png`} alt="Card Image" className={styles.cardImage} />
+                        <div className={styles.cardContent}>
+                            <h3 className={styles.cardTitle}>MakeMyPass</h3>
+                            <p className={styles.cardDescription}>
+                                Unforgettable Moments Commence with Tickets in your Digital Grasp.
+                                At MakeMyPass, Anticipation Meets Convenience, without the Chaos of
+                                Pass Logistics!
+                            </p>
+                            <div className={styles.cardLinks}>
+                                <a
+                                    href="https://makemypass.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={styles.cardLink}
+                                >
+                                    View Project
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/makemypass/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={styles.cardLink}
+                                >
+                                    Instagram
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <img

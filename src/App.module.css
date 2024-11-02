@@ -203,3 +203,57 @@ a {
 .visitProjectButton:hover {
     background-color: #e08e36;
 }
+
+.projectsHeading {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 1rem 0;
+
+    max-width: 25rem;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+}
+
+.cardContent {
+    padding: 1rem;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.cardDescription {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.cardLinks {
+    display: flex;
+    gap: 1rem;
+}
+
+.cardLink {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cardLink:hover {
+    text-decoration: underline;
+}
