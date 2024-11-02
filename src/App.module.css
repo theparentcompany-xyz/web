@@ -220,7 +220,7 @@ a {
     overflow: hidden;
     margin: 1rem 0;
 
-    max-width: 25rem;
+    max-width: 20rem; /* Reduced the max-width */
 }
 
 .cardImage {
@@ -229,24 +229,24 @@ a {
 }
 
 .cardContent {
-    padding: 1rem;
+    padding: 0.75rem; /* Reduced the padding */
 }
 
 .cardTitle {
-    font-size: 1.5rem;
+    font-size: 1.25rem; /* Reduced the font size */
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
 .cardDescription {
-    font-size: 1rem;
+    font-size: 0.875rem; /* Reduced the font size */
     color: #666;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem; /* Reduced the margin */
 }
 
 .cardLinks {
     display: flex;
-    gap: 1rem;
+    gap: 0.75rem; /* Reduced the gap */
 }
 
 .cardLink {
